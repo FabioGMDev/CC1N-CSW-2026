@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula-04</title>
 </head>
 <body>
-    <h1>Principais formatações</h1>
+    <h1 style="background-color: red;">Principais formatações</h1>
 
     <h2>Negrito / Destaque</h2>
     <p><b>Na frase temos uma parte do texto em negrito</b> usando a tag B (não semântica)</p>
@@ -34,7 +34,46 @@
     <p>Vamos demonstrar uma fórmula da equação de segundo grau ax² + bx + c = 0 usando tag sup</p>
     
     <h2>Texto subescrito</h2>
-    <p>Vamos demonstrar o texto subescrito com a fórmula da água H2O</p>
+    <p>Vamos demonstrar o texto subescrito com a fórmula da água H<sub>2</sub>O</p>
 
-    <h2></h2>
+    <h2>Trecho de código fonte</h2>
+    <p>Neste exmplo vou demonstrar um trecho de código</p>
+    <p>Inserido o comando <code>document.getElementById('edtCodigo')</code> que é um comando java script</p>
+
+    <pre><code>
+   function calcularEquacaoSegundoGrau(a, b, c) {
+    if (a === 0) {
+        console.log("Não é uma equação de segundo grau.");
+        return;
+    }
+
+    const delta = b * b - 4 * a * c;
+
+    if (delta < 0) {
+        console.log("A equação não possui raízes reais.");
+        return;
+    }
+
+    const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+    const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+
+    console.log("Delta:", delta);
+    console.log("x1:", x1);
+    console.log("x2:", x2);
+
+    return { delta, x1, x2 };
+}
+
+</code></pre>
+
+    <h2>Citação</h2>
+    <p><blockquote></blockquote></p>
+
+    <h2>Abreviação</h2>
+    <p></p>
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="ltr">Estou estudando HTML</bdo></p>
+    <p><bdo dir="rtl">Estou estudando HTML</bdo></p>
+
 </html> 

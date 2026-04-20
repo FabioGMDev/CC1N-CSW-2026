@@ -1,0 +1,13 @@
+body {
+    margin: 0px 100px;
+    background-color: #10608A;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black;
+}
+
+img {
+    resize: both;
+    margin: auto;
+    box-shadow: 10px 10px black;
+    
+}

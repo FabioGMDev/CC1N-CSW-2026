@@ -1,0 +1,14 @@
+body {
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black;
+    padding: none;
+}
+
+.div1 {
+    background-color: cadetblue;
+}
+
+.div2 {
+    background-color: rgb(107, 66, 11);
+}

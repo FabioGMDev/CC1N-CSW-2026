@@ -1,0 +1,25 @@
+div {
+    display: flex;
+}
+
+.div2 {
+    flex-grow: 1;
+}
+
+.div2 li {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.i1 {
+    background-color: blue;
+}
+
+.i2 {
+    background-color: green;
+}
+
+.i3 {
+    background-color: red;
+} 

@@ -1,43 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aula-16</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Calculadora UVV</h1>
-        </header>
-        <div>
-            <input type="number" id="tela" placeholder="Coloque sua data de nascimento">
-            <button onclick="calc()">Calcular</button>
-            <input type="number" id="resultado" disabled>
-            <p id="respeito"></p>
-        </div>
-        <hr> 
-        <div>
-            <p>Data de Nascimento:</p> 
-            <input type="number" min="1" max="31" placeholder="dia">
-            <select id="cidade" name="cidade">
-                <option selected>Selecione a data</option>
-                <option id="janeiro" value="1">Janeiro</option>
-                <option id="fevereiro" value="2">Fevereiro</option>
-                <option id="março" value="3">Março</option>
-                <option id="abril" value="4">Abril</option>
-                <option id="maio" value="5">Maio</option>
-                <option id="junho" value="6">Junho</option>
-                <option id="julho" value="7">Julho</option>
-                <option id="agosto" value="8">Agosto</option>
-                <option id="setembro" value="9">Setembro</option>
-                <option id="outubro" value="10">Outubro</option>
-                <option id="novembro" value="11">Novembro</option>
-                <option id="dezembro" value="12">Dezembro</option>
-            </select>
-            <input type="number" placeholder="ano" max="2027">
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oiposso16</title>
+</head>
+<body>  
+    
+    <h1 id="titulo">Aula de JavaScript (2)</h1>
+
+    <p id="name"></p>
+    <br>
+    <br>
+    <p id="resposta"></p>
+    <br>
+    <br>
+    <div id="conteiner">
+        <label for="NomeInput">Nome: </label>
+        <input id="NomeInput" type="text" placeholder="Escreva seu nome">
+        <button onclick="enviarNome()"> Enviar </button>
         
-        <script src="script.js"></script>
-    </body>
+    </div>
+
+    <div id="conteiner1">
+
+    </div>
+<script src="script.js"></script>
+</body>
 </html>
